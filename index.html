@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<title>Helix AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BACKGROUND YJE -->
+<canvas id="stars"></canvas>
+
+<!-- ADN MAJTAS -->
+<div id="dna-container"></div>
+
+<!-- UI QENDËR -->
+<div id="ui">
+
+  <!-- HEADER -->
+  <header id="header">
+    <img src="assets/logo.svg" width="80">
+    <h1>Helix AI</h1>
+    <p>Inteligjenca artificiale per ADN</p>
+  </header>
+
+  <!-- ANSWER BOX -->
+  <div id="answer"></div>
+
+  <!-- SEARCH -->
+  <div class="search-row">
+    <button id="searchBtn">Kerko</button>
+    <input id="searchInput" placeholder="Shkruaj pyetjen..." autocomplete="off">
+  </div>
+
+  <!-- SUGGESTIONS -->
+  <div id="suggestions"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
